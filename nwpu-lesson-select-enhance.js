@@ -8,6 +8,9 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nwpu.edu.cn
 // @grant        none
 // @run-at       document-end
+// @namespace    https://github.com/2ndelement/nwpu-lesson-select-enhance
+// @supportURL   https://github.com/2ndelement/nwpu-lesson-select-enhance
+// @homepageURL  https://github.com/2ndelement/nwpu-lesson-select-enhance
 // ==/UserScript==
 
 (function () {
