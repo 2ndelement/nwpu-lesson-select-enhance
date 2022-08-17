@@ -1,3 +1,4 @@
+![Greasy Fork](https://img.shields.io/greasyfork/dt/449714?label=greasyfork%20install)
 # 翱翔门户选课增强
 支持新版翱翔门户显示选课已选人数
 将js脚本导入浏览器油猴(TemperMonkey)插件,打开选课网页即可使用
