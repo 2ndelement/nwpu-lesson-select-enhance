@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         翱翔门户选课增强
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  翱翔门户选课增强，显示已选人数
 // @author       2ndelement
 // @match        https://jwxt.nwpu.edu.cn/course-selection/
