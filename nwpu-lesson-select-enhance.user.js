@@ -11,6 +11,7 @@
 // @namespace    https://github.com/2ndelement/nwpu-lesson-select-enhance
 // @supportURL   https://github.com/2ndelement/nwpu-lesson-select-enhance
 // @homepageURL  https://github.com/2ndelement/nwpu-lesson-select-enhance
+// @license MIT
 // ==/UserScript==
 
 (function () {
