@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         翱翔门户选课增强
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/2ndelement/nwpu-lesson-select-enhance
 // @version      0.3
 // @description  翱翔门户选课增强，显示已选人数
 // @author       2ndelement
