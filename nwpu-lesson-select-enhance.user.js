@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         翱翔门户选课增强
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  翱翔门户选课增强，显示已选人数
 // @author       2ndelement
 // @match        https://jwxt.nwpu.edu.cn/course-selection/
@@ -76,9 +76,9 @@
             }
             for (let i = 0; i < coursesDom.length; i++) {
               var pannel = coursesDom[i].querySelector(
-                "div.control-label.pinned-label"
+                "td.el-table_1_column_5.el-table__cell"
               );
-              if (!pannel) {
+              if (!pannel.firstChild.firstChild) {
                 continue;
               }
               var bar = coursesDom[i].querySelector(
@@ -101,7 +101,7 @@
               var overNum = currentCourse.selected - currentCourse.limit;
               var color = overNum > 0 ? "red" : "green";
               updateBar(bar, currentCourse.selected, currentCourse.limit);
-              pannel.innerHTML =
+              pannel.firstChild.firstChild.innerHTML =
                 "<font color=" +
                 color +
                 ">" +
